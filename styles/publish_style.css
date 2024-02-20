@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d0f0d;
+    font-family: Anek Latin;
+}
+
+/* CABECERA */
+
+.header{
+    font-size: 3vw;
+    background-color: #d22915;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.logo img{
+    width: 280px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .hueco{
+    width: 350px;
+}
+.menu .hueco2{
+    width: 100px;
+}
+.menu a:nth-child(1){
+    border-left: 2px solid #960a0f;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFD7D7;
+    line-height: 100px;
+    border-right: 2px solid #960a0f;
+    padding: 10px 15px;
+}
+
+/* Titulo */
+
+.title {
+    margin-top: 3%;
+    color: #FFD7D7;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.title h1 {
+    font-size: 400%;
+}
+
+.title h2 {
+    font-size: 200%;
+    margin-top: 1%;
+}
+
+/* Requerimientos */
+
+.requirements {
+    color: #FFD7D7;
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+}
+
+/* Detalles - formulario*/
+
+.contactDet, .gameDet , .subir{
+    color: #FFD7D7;
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+
+}
+.contactDet input, .gameDet input{
+    margin-top: 1%;
+    display: block;
+    width: 100%;
+    padding: 0.5%;
+    border: 2px solid #ff402a;
+    background-color: #FFD7D7;
+    color: #1d0f0d;
+    font-weight: bolder;
+}
+
+.gameDet textarea{
+    margin-top: 1%;
+    width: 100%;
+    height: 100px;
+    border: 2px solid #ff402a;
+    background-color: #FFD7D7;
+    color: #1d0f0d;
+    font-weight: bolder;
+}
+
+.gameDet input:last-child, .subir input {
+    margin-top: 1%;
+    width: 100%;
+    padding: 1%;
+    border: none;
+    font-weight: bolder;
+    color: #1d0f0d;
+    background-color: #ff2f17;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color: #FFD7D7;
+    background-color: #82000d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bolder;
+}
+
+.footer h2 {
+    font-size: xx-large;
+}
+
+.footer .columna {
+    width: 20%;
+}
+
+.footer .columna ul {
+    list-style-type: none;
+    
+}
+
+.footer .columna a {
+    color: #FFD7D7;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 80%;
+}

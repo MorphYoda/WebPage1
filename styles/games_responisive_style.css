@@ -1,0 +1,80 @@
+@media screen and (max-width: 776px) {
+
+  /* HEADER */
+
+  .header{
+    font-size: 20px;
+  }
+  .menu{
+      flex-direction: column;
+  }
+  .menu a:nth-child(1){
+    border-left: initial;
+  }
+  .menu a{
+    border:initial;
+    line-height: 50px;
+  }
+  .menu .hueco{
+    height: 250px;
+    width: initial;
+  }
+  .logo{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  /* FILTERS */
+
+  .filters h2{
+    display: none;
+  }
+
+  .filters button {
+    padding: 0.1%;
+  }
+
+  /* GAME ITEM */
+
+  .game_item {
+    flex-direction: column;
+  }
+
+  .tags button {
+    display: none;
+  }
+
+
+  /* FOOTER */
+  .footer {
+    justify-content: space-between;
+  }
+
+  .footer .columna:last-child {
+    display: none;
+  }
+
+  .footer .columna {
+    width: 25%;
+  }
+
+  .footer .columna h2 {
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .footer .columna {
+    font-weight: normal;
+    font-size: smaller;
+
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .filters button:last-child {
+    display: none;
+  }
+}

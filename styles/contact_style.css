@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d0f0d;
+    font-family: Anek Latin;
+}
+
+/* CABECERA */
+
+.header{
+    font-size: 3vw;
+    background-color: #d22915;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.logo img{
+    width: 280px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .hueco{
+    width: 350px;
+}
+.menu .hueco2{
+    width: 100px;
+}
+.menu a:nth-child(1){
+    border-left: 2px solid #960a0f;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFD7D7;
+    line-height: 100px;
+    border-right: 2px solid #960a0f;
+    padding: 10px 15px;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    color: #FFD7D7;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #960a0f;
+    padding: 2% 5%;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+}
+
+.newsletter h3 {
+    text-align: left;
+    margin: 1% 0;
+}
+
+.newsletter .formulario {
+    display: flex;
+}
+
+.newsletter .formulario input:first-child {
+    color: #1d0f0d;
+    font-weight: bolder;
+    font-size: large;
+    width: 80%;
+    margin-right: 5%;
+    padding: 0.5%;
+    background-color: #ffd7d7;
+    border: 2px solid #ff402a;
+}
+
+.newsletter .formulario input:last-child {
+    color: #1d0f0d;
+    font-weight: bolder;
+    width: 15%;
+    border: none;
+    font-size: xx-large;
+    border-radius: 25px;
+    background-color: #d22915;
+    padding: 0.5%;
+}
+
+/* ¿ Quienes somos ? */
+
+.who {
+    color: #FFD7D7;
+    margin: auto;
+    margin-top: 1%;
+    background-color: #960a0f;
+    padding: 2% 5%;
+    border-radius: 25px;
+    width: 80%;
+    display: flex;
+}
+
+.who p {
+    text-align: justify;
+    font-size: larger;
+    padding-right: 2%;
+}
+
+.who img {
+    width: 20%;
+}
+
+/* WE HAVE WORKED WITH */
+
+.wework {
+    color: #FFD7D7;
+    margin: auto;
+    margin-top: 1%;
+    background-color: #960a0f;
+    padding: 2% 5%;
+    border-radius: 25px;
+    width: 80%; 
+}
+
+.wework h1 {
+    text-align: center;
+}
+
+.wework .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wework .lista {
+    margin-top: 2%;
+    width: 30%;
+    text-align: center;
+}
+
+.wework .lista{
+    width: 20%;
+    text-align: center;
+
+}
+
+.wework ul {
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color: #FFD7D7;
+    background-color: #82000d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bolder;
+}
+
+.footer h2 {
+    font-size: xx-large;
+}
+
+.footer .columna {
+    width: 20%;
+}
+
+.footer .columna ul {
+    list-style-type: none;
+    
+}
+
+.footer .columna a {
+    color: #FFD7D7;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 80%;
+}

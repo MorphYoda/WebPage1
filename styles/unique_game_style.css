@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d0f0d;
+    font-family: Anek Latin;
+}
+
+/* CABECERA */
+
+.header{
+    font-size: 3vw;
+    background-color: #d22915;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.logo img{
+    width: 280px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .hueco{
+    width: 350px;
+}
+.menu .hueco2{
+    width: 100px;
+}
+.menu a:nth-child(1){
+    border-left: 2px solid #960a0f;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFD7D7;
+    line-height: 100px;
+    border-right: 2px solid #960a0f;
+    padding: 10px 15px;
+}
+
+/* GAME DESCRIPTION IMAGE AND TRAILER -- TOP */
+
+.game_top {
+    margin: auto;
+    width: 80%;
+    margin-top: 6%;
+    color: #FFD7D7;
+    display: flex;
+}
+
+.game_top > img {
+    width: 50%;
+    height: 50%;
+}
+
+.game_desc {
+    padding-right: 2%;
+    text-align: justify;
+}
+
+.game_desc h1{
+    font-size: 400%;
+}
+
+.game_desc p {
+    font-size: larger;
+    margin-top: 3%;
+}
+
+.trailer {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.trailer h2{
+    font-size: 250%;
+}
+
+.trailer iframe {
+    aspect-ratio: 16/9;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.social {
+    text-align: center;
+    margin: auto;
+}
+.social h2 {
+    margin-bottom: 1%;
+}
+
+.social img {
+    margin: 0 5%;
+    border-radius: 100%;
+}
+
+/* ENLACES A TIENDAS */
+
+.buy_sites {
+    margin: auto;
+    width: 80%;
+    margin-top: 2%;
+    color: #FFD7D7;
+}
+.buy_sites img {
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.buy_sites .price{
+    display: flex;
+}
+
+.buy_sites .price h1 {
+    font-size: 250%;
+    margin: 2% 0 5% 0; 
+    margin-right: 7%;
+}
+
+/* REVIEWS */
+
+.reviews_list {
+    margin: auto;
+    color: #FFD7D7;
+    width: 80%;
+    text-align: center;
+}
+
+.reviews_list h1 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.review_item {
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #82000d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    border-radius: 25px;
+}
+
+.review_item .desc {
+    width: 80%;
+}
+
+.review_item h3 {
+    font-size: 300%;
+    border-radius: 25px;
+    background-color: #cd1c13;
+    padding: 2% 1%;
+}
+
+.reviews_list a {
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #1d0f0d;
+    font-size: xx-large;
+    background-color: #cd1c13;
+    padding: 1% 2%;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color: #FFD7D7;
+    background-color: #82000d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bolder;
+}
+
+.footer h2 {
+    font-size: xx-large;
+}
+
+.footer .columna {
+    width: 20%;
+}
+
+.footer .columna ul {
+    list-style-type: none;
+    
+}
+
+.footer .columna a {
+    color: #FFD7D7;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 80%;
+}

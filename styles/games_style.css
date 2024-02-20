@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d0f0d;
+    font-family: Anek Latin;
+}
+
+/* CABECERA */
+
+.header{
+    font-size: 3vw;
+    background-color: #d22915;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.logo img{
+    width: 280px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .hueco{
+    width: 350px;
+}
+.menu .hueco2{
+    width: 100px;
+}
+.menu a:nth-child(1){
+    border-left: 2px solid #960a0f;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFD7D7;
+    line-height: 100px;
+    border-right: 2px solid #960a0f;
+    padding: 10px 15px;
+}
+
+/* NUEVO LANZAMIENTO */
+
+.new_release img {
+    margin-top: -2%;
+    width: 100%;
+    aspect-ratio: 1920/877; /* Por el tamaño de la imagen no puedo cambiar este aspect ratio sin que se deforme, y no puedo simplificarlo porque 877 es primo */
+
+}
+
+/* FILTROS */
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -1%;
+    background-color: #78020d;
+    width: 100%;
+    padding: 3% 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #FFD7D7;
+    font-size: x-large;
+}
+
+.filters button {
+    border: solid 3px #f45546;
+    background-color: #f12a16;
+    display: block;
+    padding : 0.5%;
+    aspect-ratio: 10/1;
+}
+
+/* LISTA DE JUEGOS */
+
+.games_list {
+    text-align: center;
+}
+
+.game_item {
+    color: #FFD7D7;
+    margin: 2% auto;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #78020d;
+    display: flex;
+
+}
+
+.game_item img {
+    padding: 0.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    width: 100%;
+    text-align: justify;
+    padding: 2%;
+}
+
+.info h2 {
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.tags {
+    text-align: center;
+    padding: 2%;
+}
+
+.tags button {
+    border: none;
+    background-color: #78020d;
+    font-size: xx-large;
+    margin-top: 10%;
+}
+
+.games_list > .load {
+    width: 20%;
+    font-size: 200%;
+    border-radius: 15px;
+    background-color: #d22915;
+    text-decoration: none;
+    color: #1d0f0d;
+    padding: 1%;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color: #FFD7D7;
+    background-color: #82000d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bolder;
+}
+
+.footer h2 {
+    font-size: xx-large;
+}
+
+.footer .columna {
+    width: 20%;
+}
+
+.footer .columna ul {
+    list-style-type: none;
+    
+}
+
+.footer .columna a {
+    color: #FFD7D7;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 80%;
+}
